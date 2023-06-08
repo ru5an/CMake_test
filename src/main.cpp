@@ -1,7 +1,7 @@
-#include <iostream>
+#include "Menu\Menu.h"
 
-int main(int argc, char const *argv[])
+int main()
 {
-    std::cout << "Hello\n";
-    return 0;
+    Menu menu(4);
+    menu.run();
 }
