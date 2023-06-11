@@ -21,7 +21,6 @@ add_executable(main
     src/Main.cpp
 )
 
-
 target_link_libraries(RationalNumbers 
     PUBLIC InOutPut
 )
